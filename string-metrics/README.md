@@ -71,6 +71,7 @@ select strics_damerauDistance('John A Smith', 'Jonathan A Smiht')
 Similar to edit distance with the condition that no substring is edited more than once.
 
 Syntax: ```strics_optimalStringAlignmentDistance(<field|value1>, <field|value2>)```
+
 ---
 
 ### strics_jaroWinklerSimilarity()
