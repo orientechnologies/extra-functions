@@ -35,6 +35,7 @@ Syntax: ```strics_editDistance(<field|value1>, <field|value2>)```
 select strics_editDistance('John A Smith', 'Jonathan A Smith')
 --- returns 4
 ```
+---
 
 ### strics_editDistanceSimilarity()
 
@@ -49,6 +50,7 @@ Syntax: ```strics_editDistanceSimilarity(<field|value1>, <field|value2>)```
 select strics_editDistanceSimilarity('John A Smith', 'Jonathan A Smith')
 --- returns 0.75
 ```
+---
 
 ### strics_damerauDistance()
 
@@ -62,12 +64,14 @@ Syntax: ```strics_damerauDistance(<field|value1>, <field|value2>)```
 select strics_damerauDistance('John A Smith', 'Jonathan A Smiht')
 --- returns 5 (edit distance would return 6)
 ```
+---
 
 ### strics_optimalStringAlignmentDistance()
 
 Similar to edit distance with the condition that no substring is edited more than once.
 
 Syntax: ```strics_optimalStringAlignmentDistance(<field|value1>, <field|value2>)```
+---
 
 ### strics_jaroWinklerSimilarity()
 
