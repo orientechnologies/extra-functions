@@ -1,0 +1,3 @@
+rootProject.name = 'extra-functions'
+
+include 'string-metrics'
